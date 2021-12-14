@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+  This webpage showcases the main page of the pokemart.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>PokeMart!</title>
+  </head>
+  <body>
+    <img id="logo" src="img/pokemart.png" alt="pokemart logo">
+    <main>
+      <section id="menu">
+        <section id="balance">
+          <p id="top" class="hidden">MONEY</p>
+          <p id="bottom" class="hidden">₽5000</p>
+          <p id="no-account">Login to view your balance</p>
+        </section>
+        <section id="buttons">
+          <input type="text" id="search-bar">
+          <button id="search" disabled>Search Item</button>
+          <button id="pokeballs">Poke Balls</button>
+          <button id="potions">Potions</button>
+          <button id="tms">TMs</button>
+          <button id="all">All Items</button>
+          <button id="account">Login/Register</button>
+          <button id="history">History</button>
+          <button id="view-grid">Switch View</button>
+        </section>
+      </section>
+      <section id="store">
+        <section id="store-items">
+          <section id="grid" class="hidden">
+            <section id="store-items-grid"></section>
+          </section>
+          <section id="store-items-list"></section>
+        </section>
+        <section id="store-desc">
+          <p id="username"></p>
+          <section id="item-view">
+            <section id="item-info">
+              <img id="item-img" src="img/ball_regular.png" alt="product image">
+              <p id="item-description">
+              </p>
+            </section>
+            <section id="purchase-info">
+              <p id="amount"></p>
+              <p id="price"></p>
+              <button id="item-purchase">Purchase</button>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer>Photo credits to <a href="https://bulbagarden.net">https://bulbagarden.net</a></footer>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+  This webpage showcases the login/register page.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="login_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="login.js"></script>
+    <title>Login/Register</title>
+  </head>
+  <body>
+    <main>
+      <section id="top">
+        <button id="back">Back</button>
+      </section>
+      <section id="contents">
+        <section>
+          <span>username</span>
+          <input type="text" id="username">
+        </section>
+        <section>
+          <span>email</span>
+          <input type="email" id="email">
+        </section>
+        <section>
+          <span>password</span>
+          <input type="password" id="password">
+        </section>
+      </section>
+      <section id="bottom">
+        <button id="login">LOGIN</button>
+        <button id="register">REGISTER</button>
+        <p id='error' class='hidden'>Account does not exist. Please check your login info.</p>
+        <p id='error-reg' class='hidden'>Account already exists.</p>
+        <p id='error-empty' class='hidden'>Need to fill out each box.</p>
+      </section>
+    </main>
+  </body>
+</html>

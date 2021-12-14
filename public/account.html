@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+  This webpage showcases the recently bought items
+  from an account.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="account_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="account.js"></script>
+    <title>Account</title>
+  </head>
+  <body>
+    <main>
+      <button id="back">Back</button>
+      <h1>Purchase History</h1>
+    </main>
+    <section id="account">
+      <section id="history">
+        <button>go buy something!</button>
+      </section>
+      <section id="review">
+        <h2>Leave a Review</h2>
+        <section>
+          <div>username</div>
+          <input type="text" id="username">
+        </section>
+        <section>
+          <div>item</div>
+          <input type="text" id="item">
+        </section>
+        <section>
+          <div>rating (out of 5)</div>
+          <input type="text" id="rating">
+        </section>
+        <section>
+          <div>feedback</div>
+          <textarea id="feedback"></textarea>
+        </section>
+        <button id="review-button">Rate Item</button>
+        <p id="review-result"></p>
+      </section>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+/*
+  This is the loginStyles.css page for login related items.
+  It is used by all pages related to accounts to give the
+  site a consistent look and feel.
+*/
+
+body {
+  background-color: rgb(243, 207, 172);
+  background-image: url('img/login_background.png');
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 850px;
+}
+
+button, body {
+  font-family: 'VT323', monospace;
+}
+
+button, span {
+  color: rgb(54, 54, 54);
+  text-shadow: 2px 2px #999;
+}
+
+#contents {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 40px;
+}
+
+#contents section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+label {
+  display: block;
+}
+
+label span {
+  display: inline-block;
+  text-align: right;
+  width: 300px;
+  margin-left: 50px;
+}
+
+button, p {
+  width: 20%;
+  height: 10%;
+  font-size: 50px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border: 5px outset #999;
+  border-radius: 6px;
+  box-shadow: 1px 3px #999;
+  transition-duration: 0.4s;
+}
+
+p {
+  width: 600px;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+span {
+  background-color: lightgrey;
+  padding: 30px;
+  margin: 10px;
+  font-size: 80px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+input {
+  height: 80px;
+  width: 300px;
+  font-size: 100%;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}

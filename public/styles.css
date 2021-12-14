@@ -1,0 +1,188 @@
+/*
+  This is the styles.css page for main page related items.
+  It is used by all pages related to accounts to give the
+  site a consistent look and feel.
+*/
+
+body, button, #search-bar, #item-info, #total_balance {
+  font-family: 'VT323', monospace;
+  color: rgb(54, 54, 54);
+  text-shadow: 2px 2px #999;
+  font-size: 45px;
+}
+
+body {
+  padding-left: 500px;
+  padding-right: 500px;
+  min-width: 1000px;
+  max-width: 1000px;
+  background-color: rgb(47, 120, 255);
+}
+
+button {
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#search-bar {
+  height: 30px;
+  text-align: right;
+}
+
+button, #search-bar, #store-items-grid section {
+  background-color: #f7f7f7;
+  border: 5px outset #999;
+  border-radius: 6px;
+  box-shadow: 1px 3px #999;
+  transition-duration: 0.4s;
+}
+
+button:hover, #store-items-grid section:hover {
+  background-color: #ccc;
+}
+
+#store-items-grid section {
+  width: 31.5%;
+  height: 260px;
+}
+
+#store-items-grid {
+  flex-wrap: wrap;
+}
+
+main, #menu, #store, #inventory, #balance, #purchase-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item, #buttons, #item-info, #store-items-grid {
+  display: flex;
+}
+
+.item, #item-info, #purchase-info {
+  justify-content: space-between;
+}
+
+.item_name {
+  margin: 0px;
+  justify-self: left;
+}
+
+.item_price {
+  margin: 0px;
+  justify-self: right;
+}
+
+#menu {
+  width: 33%;
+}
+
+#buttons {
+  flex: 1;
+  height: 80%;
+}
+
+#inventory {
+  flex-direction: row;
+}
+
+#buttons, #balance, #store-items, #store-desc {
+  background-color: #f7f7f7;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#store {
+  margin-left: 20px;
+  width: 67%;
+}
+
+#store-desc {
+  height: 200px;
+}
+
+#store-items {
+  height: 500px;
+  display: block;
+  overflow-y: scroll;
+}
+
+img {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+}
+
+p {
+  margin: 5px;
+}
+
+#item-view p {
+  font-size: 40px;
+}
+
+#menu, #store, #buttons, #item-view {
+  flex-direction: column;
+}
+
+#balance {
+  margin-top: 0px;
+  height: 20%;
+  font-size: 55px;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#balance, #store-items {
+  margin-bottom: 20px;
+}
+
+#purchase-info button {
+  width: 200px;
+  align-content: baseline;
+}
+
+#total_balance {
+  margin-top: 0px;
+  text-align: center;
+  width: 225px;
+}
+
+#item-purchase {
+  height: 60px;
+}
+
+#top {
+  text-align: left;
+  margin: 0;
+}
+
+#bottom {
+  text-align: right;
+}
+
+#top, #bottom {
+  margin: 0;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 312px;
+  height: 120px;
+}
+
+.hidden {
+  /* Used to override other display properties,
+   * .hidden should always take highest precedence */
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
