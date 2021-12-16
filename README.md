@@ -5,7 +5,7 @@ Pokemart is a creation that mimics the store feature from the popular Pokemon ga
 
 ## Main Screen
 ![](/images_readme/main_screen.jpg)
-## Log in Screen
+## Loged in account
 ![](/images_readme/main_log1_screen.jpg)
 ![](/images_readme/main_log2_screen.jpg)
 ## Login Screen
